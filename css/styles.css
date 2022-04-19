@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Space mono';
+    src: url('../fonts/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('../fonts/Inconsolata-Regular.ttf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#image {
+    float: left;
+    width: 50%;
+}
+
+#image div:first-child {
+    color: #333333;
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    font-weight: 700;
+    height: 25px;
+    left: 10%;
+    letter-spacing: -0.08em;
+    line-height: 25px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 40px;
+    width: 133px;
+}
+
+#image div:nth-child(2) {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+#image div:nth-child(2) img {
+    height: 447.43px;
+    max-width: 100%;
+    width: 539.22px;
+}
+
+#text {
+    float: left;
+    width: 50%;
+}
+
+#text div:first-child {
+    font-family: 'Space mono';
+    font-size: 64px;
+    font-weight: 700;
+    left: 50%;
+    letter-spacing: -0.035em;
+    line-height: 95px;
+    position: absolute;
+    top: 265px;
+    width: 586px;
+    height: 190px;
+}
+
+#text div:nth-child(2) {
+    color: #4F4F4F;
+    font-family: 'Space mono';
+    font-size: 24px;
+    font-weight: 400;
+    height: 108px;
+    left: 50%;
+    letter-spacing: -0.035em;
+    line-height: 36px;
+    position: absolute;
+    top: 491px;
+    width: 381px;
+}
+
+#text a {
+    align-items: center;
+    background-color: #333333;
+    color: #FFF;
+    display: flex;
+    font-family: 'Space mono';
+    height: 68px;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    text-decoration: none;
+    top: 663px;
+    width: 216px;
+}
+
+footer {
+    color: #BDBDBD;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    height: 17px;
+    left: 40%;
+    line-height: 17px;
+    position: absolute;
+    text-align: center;
+    top: 98%;
+    width: 287px;
+}
